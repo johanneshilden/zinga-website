@@ -1,0 +1,167 @@
+
+.navbar-custom .nav li a {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+h1 {
+    letter-spacing: -2px;
+}
+
+.intro-header .site-heading .subheading, 
+.intro-header .page-heading .subheading {
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.intro-header 
+.post-heading 
+.subheading {
+    line-height: 1.2;
+}
+
+/*
+p, span, address, blockquote, ul li, table td, input, textarea, label {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: .9em;
+}
+*/
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p, span, address, blockquote, ul li, table td, input, textarea, label {
+    font-weight: 200;
+    font-size: .9em;
+}
+blockquote {
+    font-style: normal;
+}
+.btn-outline {
+    background: none;
+    border: 2px solid white;
+    color: #fff;
+}
+
+.btn-outline:hover {
+    border: 2px solid white;
+}
+
+.navbar-custom.is-fixed {
+    background-color: #1b0500;
+    border-color: #1b0500;
+}
+/*
+rgb(12, 12, 11)
+*/
+
+.navbar .badge {
+    background-color: #f9bf18;
+    font-weight: 900;
+}
+
+.navbar-custom.is-fixed .nav li a,
+.navbar-custom.is-fixed .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-custom.is-fixed .nav li a:hover, 
+.navbar-custom.is-fixed .nav li a:focus,
+.navbar-custom.is-fixed .navbar-brand:hover,
+.navbar-custom.is-fixed .navbar-brand:focus {
+    color: #f9bf18;
+}
+
+.btn-default:hover, 
+.btn-default:focus {
+    background-color: #161f11;
+}
+
+.btn {
+    text-transform: none;
+    font-weight: 600;
+    letter-spacing: 0;
+    font-size: .9em;
+}
+
+a {
+    color: #337ab7;
+    font-weight: 600;
+}
+
+hr {
+    margin: 3em 0;
+}
+
+footer {
+    padding: 0;
+    margin-top: 4em; 
+    background: #181510;
+}
+
+footer,
+footer a {
+    color: #ede1c0; 
+}
+
+footer p {
+    margin-top: 0;
+}
+
+footer address {
+    line-height: 160%;
+}
+
+footer a:hover {
+    color: #f9bf18;
+    text-decoration: none;
+}
+
+footer ul {
+    font-size: .9em;
+}
+
+footer ul.fa-ul {
+    margin-left: 1.4em;
+}
+
+footer hr {
+    margin: 0 0 1em;
+}
+
+footer .btn-default {
+    border: 1px solid #fff;
+    background: none;
+    padding: .2em 1em;
+}
+
+.panel-title {
+    font-weight: 600;
+}
+
+.panel-body {
+    padding: 2em;
+    font-size: .9em;
+}
+
+.panel-body hr {
+    margin: 2em 0;
+}
+
+.well p {
+    margin: 0;
+}
+
+.panel-items p {
+    margin: 1em 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .nav.navbar-nav.navbar-right > li > a {
+        padding-left: 5px;
+    }
+}
